@@ -1,0 +1,61 @@
+.tree-wrap {
+    margin: 32px 16px;
+
+    .new-category-wrap {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 8px;
+        align-items: center;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .tree-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 8px;
+
+        &__item {
+            flex-direction: row;
+            margin: 8px 0,
+        }
+
+        .tree-node {
+            height: 25px;
+            cursor: pointer;
+        }
+
+        .control-btn {
+
+            height: 30px;
+            cursor: pointer;
+            background-color: #e91e63;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 500;
+            padding: 0 8px;
+
+            &.add {
+                background-color: #8bc34a;
+            }
+
+
+        }
+
+        .category-input {
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #9e9e9e;
+
+            &:focus-visible {
+                border-bottom: 2px solid #08909f;
+                // background-color: #e3e2e2;
+            }
+
+        }
+    }
+}
