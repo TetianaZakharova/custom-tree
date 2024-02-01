@@ -9,3 +9,4 @@ Features:
 - Delete category (if it has children - delete them as well).
 - Expand/Collapse parent category (children categories should collapse too).
 
+[DEMO](https://tetianazakharova.github.io/custom-tree/)
